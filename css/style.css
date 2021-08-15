@@ -1,0 +1,59 @@
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2015/05/10/21/28/accounting-761599_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.titulo{
+    padding: 60px;
+    text-align: center;
+    background: #5e5f5f;
+    color: white;
+    font-size: 24px;
+}
+.tit-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+.tela{
+    background-color: #ffffff;
+    position: fixed;
+    top: 46.5%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+.numbers{
+    background-color: #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+li{
+    float:left;
+}
+button{
+    background-color: #ffffff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color: #a7a7a7;
+    border-style:initial;
+}
+.num{
+    color:black;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <script src="js/main.js"></script>
+    <title>Casual Calculations</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1 class="tit-text">Casual Calculations</h1>
+    </div>
+    <script>
+        let myCalc = new Calculadora();
+    </script>
+    <h2 id='tela' class='tela'></h2>
+    <div class="numbers">
+        <ul class="ops" style="list-style-type:none">
+            <li><button type="button" class="num" onclick="myCalc.Clear()">C</button></li>
+            <li><button type="button" class="num" onclick="myCalc.Add()">+</button></li>
+            <li><button type="button" class="num" onclick="myCalc.Minus()">-</button></li>
+        </ul>
+        <ul class="num13" style="list-style-type:none">
+            <li><button type="button" class="num" onclick="myCalc.Number1()">1</button></li>
+            <li><button type="button" class="num" onclick="myCalc.Number2()">2</button></li>
+            <li><button type="button" class="num" onclick="myCalc.Number3()">3</button></li>
+        </ul>
+        <ul class="num46" style="list-style-type:none">
+            <li><button type="button" class="num" onclick="myCalc.Number4()">4</button></li>
+            <li><button type="button" class="num" onclick="myCalc.Number5()">5</button></li>
+            <li><button type="button" class="num" onclick="myCalc.Number6()">6</button></li>
+        </ul>
+        <ul class="num79" style="list-style-type:none">
+            <li><button type="button" class="num" onclick="myCalc.Number7()">7</button></li>
+            <li><button type="button" class="num" onclick="myCalc.Number8()">8</button></li>
+            <li><button type="button" class="num" onclick="myCalc.Number9()">9</button></li>
+        </ul>
+        <ul class="num0" style="list-style-type:none">
+            <li><button type="button" class="num" onclick="myCalc.Number0()">0</button></li>
+            <li><button type="button" class="num" onclick="myCalc.Times()">x</button></li>
+            <li><button type="button" class="num" onclick="myCalc.Divid()">/</button></li>
+        </ul>
+        <ul class="equal" style="list-style-type:none">
+            <li><button type="button" class="num" onclick="myCalc.Equal()">=</button></li>
+            <li><button type="button" class="num" onclick="myCalc.Dot()">.</button></li>
+        </ul>
+    </div>
+</body>
+</html>
