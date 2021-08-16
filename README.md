@@ -3,13 +3,17 @@ Por: Vinícius Carvalho
 #
 Este git contém um HTML que utiliza Javascript para a lógica da calculadora, estilização feita através de um arquivo CSS.
 #
-Versão 0.8
+### Versão 0.8
 
 Lógica inicial pronta, alguns problemas ainda não foram resolvidos:
 * Após o primeiro cálculo, é necessário recarregar a página para que outro seja feito corretamente;
 * Cálculos com números decimais ainda não são suportados.
 
 Também pretendo melhorar a estética do "site" como um todo.
+#
+### Versão 0.9
+Corrigido problema que impossibilitava vários cálculos em uma mesma sessão.
+
 >Contato: valves8956@gmail.com
 
 Obrigado pela atenção
