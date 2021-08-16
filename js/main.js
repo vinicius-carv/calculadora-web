@@ -197,8 +197,9 @@ class Calculadora{
         document.getElementById("tela").innerHTML = tela;
     }
     Clear(){
-        this.num1=[];
-        this.num2=[];
+        this.num1.length=0;
+        this.num2.length=0;
+        this.op=null;
         this.sc=[];
         tela=[]
         document.getElementById("tela").innerHTML = tela;
@@ -226,6 +227,8 @@ class Calculadora{
             this.num2=[];
             this.sc=[];
             tela=[];*/
+            this.num1=[];
+            this.num2=[];
         }else if(this.op=='-'){
             result=number1-number2;
             console.log('O resultado é:'+' '+result);
@@ -237,6 +240,8 @@ class Calculadora{
             this.num2=[];
             this.sc=[];
             console.log('Cachê limpo');*/
+            this.num1=[];
+            this.num2=[];
         }else if(this.op=='x'){
             result=number1*number2;
             console.log('O resultado é:'+' '+result);
@@ -248,6 +253,8 @@ class Calculadora{
             this.num2=[];
             this.sc=[];
             console.log('Cachê limpo');*/
+            this.num1=[];
+            this.num2=[];
         }else if(this.op=='/'){
             result=number1/number2;
             console.log('O resultado é:'+' '+result);
@@ -259,6 +266,8 @@ class Calculadora{
             this.num2=[];
             this.sc=[];
             console.log('Cachê limpo');*/
+            this.num1=[];
+            this.num2=[];
         }else{
             //alert("Operação não selecionada");
             this.num1=[];
