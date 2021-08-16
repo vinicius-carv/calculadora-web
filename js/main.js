@@ -210,15 +210,15 @@ class Calculadora{
         this.sc.push('=')
         var field1=this.num1.join('');
         var field2=this.num2.join('');
-        var number1= parseInt(field1,10);
-        var number2= parseInt(field2,10);
+        var number1= parseFloat(field1,10);
+        var number2= parseFloat(field2,10);
         console.log(field1+" "+field2+" "+number1+" "+number2+" "); //usado para testes
         var result=null;
         if(number1==null || number2==null){
             console.log("Dados inválidos");
         }else if(this.op=='+'){
             result=number1+number2;
-            console.log('O resultado é:'+' '+result);
+            console.log('O resultado é:'+' '+result.toFixed(3));
             console.log(result);
             this.sc.push(result);
             tela=this.sc.join('');
@@ -231,7 +231,7 @@ class Calculadora{
             this.num2=[];
         }else if(this.op=='-'){
             result=number1-number2;
-            console.log('O resultado é:'+' '+result);
+            console.log('O resultado é:'+' '+result.toFixed(3));
             console.log(result);
             this.sc.push(result);
             tela=this.sc.join('');
@@ -244,7 +244,7 @@ class Calculadora{
             this.num2=[];
         }else if(this.op=='x'){
             result=number1*number2;
-            console.log('O resultado é:'+' '+result);
+            console.log('O resultado é:'+' '+result.toFixed(3));
             console.log(result);
             this.sc.push(result);
             tela=this.sc.join('');
@@ -257,7 +257,7 @@ class Calculadora{
             this.num2=[];
         }else if(this.op=='/'){
             result=number1/number2;
-            console.log('O resultado é:'+' '+result);
+            console.log('O resultado é:'+' '+result.toFixed(3));
             console.log(result)
             this.sc.push(result)
             tela=this.sc.join('')

@@ -14,6 +14,10 @@ Também pretendo melhorar a estética do "site" como um todo.
 ### Versão 0.9
 Corrigido problema que impossibilitava vários cálculos em uma mesma sessão.
 
+#
+### Versão 1.0
+Corrigido problema com números não inteiros, versão está funcional e pronta para uso, alguns ajustes estéticos são necessários.
+
 >Contato: valves8956@gmail.com
 
 Obrigado pela atenção
