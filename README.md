@@ -20,6 +20,6 @@ Corrigido problema com números não inteiros, versão está funcional e pronta 
 
 >Contato: valves8956@gmail.com
 
-Obrigado pela atenção
+Obrigado pela atenção.
 
 ![thank-you](https://i1.wp.com/judyhan.com/wp-content/uploads/2014/12/draw-2014-12-10-thankyou-bow-sm.jpg?w=200&ssl=1)
